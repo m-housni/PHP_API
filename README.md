@@ -1,6 +1,6 @@
-# PHP_API
+# Frameworkless PHP API
 
-A simple RESTful API PHP without Frameworks, to help you to understand  the concepts and the structure used. This way, you can use this example to develop your own API.
+Framework-less Restful API build with PHP and MySQL.
 
 ## Installation
 
@@ -11,35 +11,24 @@ A simple RESTful API PHP without Frameworks, to help you to understand  the conc
 
 ## How does it work
 
-You can use the API from a web front-end application, mobile app and also using the app called Postman in Chrome (you can download it in Chrome's Web Store using this [link] (https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?utm_source=chrome-ntp-icon)).  Here i'm using the Postman to exemplifyed the use of the API.
-
 We have 4 methods of access the API:
 
-1. GET
+1. GET 
 2. POST
 3. PUT
 4. DELETE
 
-- `GET method` (used to return an existing client): It's accessed using the URL http://localhost/API_Restful/api/client/(existing client id) as in the following example:
+- `GET method` (used to return an existing client): It's accessed using the URL http://localhost/API_Restful/api/client/(existing client id) 
 
-![GET method](https://raw.githubusercontent.com/lflimeira02/PHP_API/master/API_Restful/api/doc_img/get.png)
+- `POST method` (used to include a new client): It's accessed using the URL http://localhost/API_Restful/api/client/ and passing as parameter (name, age and gender)
 
-- `POST method` (used to include a new client): It's accessed using the URL http://localhost/API_Restful/api/client/ and passing as parameter (name, age and gender) as in the following example:
+- `PUT method` (used to alter an existing client): It's accessed using the URL http://localhost/API_Restful/api/client/(existing client id) and passing as parameter (name, age and gender) 
 
-![POST method](https://raw.githubusercontent.com/lflimeira02/PHP_API/master/API_Restful/api/doc_img/post.png)
-
-- `PUT method` (used to alter an existing client): It's accessed using the URL http://localhost/API_Restful/api/client/(existing client id) and passing as parameter (name, age and gender) as in the following example:
-
-![PUT method](https://raw.githubusercontent.com/lflimeira02/PHP_API/master/API_Restful/api/doc_img/put.png)
-
-- `DELETE method` (used to delete an existing client): It's accessed using the URL http://localhost/API_Restful/api/client/(existing client id) as in the following example:
-
-![DELETE method](https://raw.githubusercontent.com/lflimeira02/PHP_API/master/API_Restful/api/doc_img/delete.png)
-
+- `DELETE method` (used to delete an existing client): It's accessed using the URL http://localhost/API_Restful/api/client/(existing client id) 
 
 ## Why should you use APIs?
 
-APIs are a great way to separate the back-end from the front-end of your application,  this also makes it possible to develop for different kinds of platforms without change your back-end application and without rewrite your code in differents programming languages. For example: You can have a web application that access an API and develop a mobile application that will access the same API using the same routes. Isn't it awesome?
+APIs are a great way to separate the back-end from the front-end of your application, it allows you to build a front-end in any language or platform you want, and serve it with the same back-end. Awesome isn't it?
 
 ## Credits
 
