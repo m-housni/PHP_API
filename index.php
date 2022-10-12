@@ -2,24 +2,6 @@
 <html>
 	<head>
 		<title>API Example</title>
-		<style type="text/css">
-			body{
-				text-align: center;
-			}
-			#container{
-				width: 200px;
-				position:absolute;
-				top:50px;
-				left:50%;
-				margin-left:-100px;
-			}
-			div{
-				margin-top: 10px;
-			}
-			select{
-				width: 90%;
-			}
-		</style>
 	</head>
 	<body>
 		<div id="container">
