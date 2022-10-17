@@ -1,6 +1,7 @@
-body{
+body  {
   text-align: center;
 }
+
 #container{
   width: 200px;
   position:absolute;
@@ -8,9 +9,11 @@ body{
   left:50%;
   margin-left:-100px;
 }
-div{
+
+div {
   margin-top: 10px;
 }
-select{
+
+select  {
   width: 90%;
-			}
+}
